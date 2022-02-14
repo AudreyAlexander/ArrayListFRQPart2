@@ -33,6 +33,7 @@ public class WordScrambleTest
         int totalTests = passedTests + failedTests;
         System.out.println("TOTAL PASSED TESTS: " + passedTests + " out of " + totalTests);
         System.out.println("TOTAL FAILED TESTS: " + failedTests + " out of " + totalTests);
+
     }
 
     public static void testScramble(String actual, String expected, int testNo)
